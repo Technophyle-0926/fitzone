@@ -1,4 +1,6 @@
+import 'package:fitzone/View/dashboard_view.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
 class OnboardingView extends StatefulWidget {
@@ -212,7 +214,7 @@ class _OnboardingViewState extends State<OnboardingView> {
                   padding: const EdgeInsets.only(top: 20),
                   child: ElevatedButton(
                     onPressed: () {
-                      //TODO: Navigate to the Dashboard
+                      Get.off(() => DashboardView());
                     },
                     child: Text(
                       'Get Started',
