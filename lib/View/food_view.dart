@@ -24,6 +24,7 @@ class _FoodViewState extends State<FoodView> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        backgroundColor: Colors.white,
         title: Text("Featured Food"),
         centerTitle: true,
       ),
