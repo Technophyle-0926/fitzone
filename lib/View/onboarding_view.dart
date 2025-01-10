@@ -100,16 +100,10 @@ class _OnboardingViewState extends State<OnboardingView> {
               Container(
                 width: double.infinity,
                 height: double.infinity,
-                color: Colors.black
-                    .withOpacity(0.3), // Adjust the opacity as needed
+                color: Colors.black.withAlpha((0.3 * 255).toInt()),
               ),
             ],
           ),
-          // image: Image.asset(
-          //   "assets/Onboarding 1/Mask group@2x.png",
-          //   fit: BoxFit.cover,
-          //   width: double.infinity,
-          // ),
         ),
         PageViewModel(
           decoration: PageDecoration(
@@ -177,8 +171,7 @@ class _OnboardingViewState extends State<OnboardingView> {
               Container(
                 width: double.infinity,
                 height: double.infinity,
-                color: Colors.black
-                    .withOpacity(0.3), // Adjust the opacity as needed
+                color: Colors.black.withAlpha((0.3 * 255).toInt()),
               ),
             ],
           ),
@@ -244,8 +237,7 @@ class _OnboardingViewState extends State<OnboardingView> {
               Container(
                 width: double.infinity,
                 height: double.infinity,
-                color: Colors.black
-                    .withOpacity(0.3), // Adjust the opacity as needed
+                color: Colors.black.withAlpha((0.3 * 255).toInt()),
               ),
             ],
           ),
