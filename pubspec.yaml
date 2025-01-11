@@ -39,6 +39,7 @@ dependencies:
   iconsax: ^0.0.8
   material_symbols_icons: ^4.2801.1
   http: ^1.2.2
+  shared_preferences: ^2.3.5
 
 
 dev_dependencies:
