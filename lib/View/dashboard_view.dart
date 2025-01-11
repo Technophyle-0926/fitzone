@@ -1,3 +1,4 @@
+import 'package:fitzone/View/exercise_view.dart';
 import 'package:fitzone/View/food_view.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
@@ -15,13 +16,12 @@ class _DashboardViewState extends State<DashboardView> {
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
+      initialIndex: 1,
       child: Scaffold(
         extendBody: true,
         body: TabBarView(
           children: [
-            Container(
-              color: Colors.red,
-            ),
+            ExerciseView(),
             Container(
               color: Colors.green,
             ),
