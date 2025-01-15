@@ -1,5 +1,6 @@
 import 'package:fitzone/View/exercise_view.dart';
 import 'package:fitzone/View/food_view.dart';
+import 'package:fitzone/View/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:material_symbols_icons/symbols.dart';
@@ -22,9 +23,7 @@ class _DashboardViewState extends State<DashboardView> {
         body: TabBarView(
           children: [
             ExerciseView(),
-            Container(
-              color: Colors.green,
-            ),
+            HomeView(),
             FoodView(),
           ],
         ),
